@@ -1,0 +1,111 @@
+a > h2 {
+    font-size: 3rem;
+    color: #16A695;
+}
+
+.btn-success {
+    background-color: #16A695;
+}
+
+.margin-heading {
+    margin-top: 100px;
+}
+
+.btn-outline-success{
+    color: #16A695;
+}
+
+.carousel-item > img {
+    height: 500px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inicio {
+    font-size: 3.5rem;
+}
+
+.green {
+    color: #16A695;
+}
+
+.bg-green {
+    background-color: #16A695;
+}
+
+.btn-size {
+    height: 100%;
+    width: 200px;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+}
+
+.icon{
+    width: 70px;
+    outline-style: dotted;
+    outline-color: #16A695;
+}
+
+.sub-heading{
+    font-size: 3rem;
+}
+
+.list{
+    list-style: none;
+}
+
+.check{
+    width: 35px;
+    margin-right: 10px;
+    float: left;
+}
+
+.especificaciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 100%;
+}
+
+.sombras-hero {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.img-Agentes {
+    width: 240px;
+    height: 300px;
+}
+
+.Agentes {
+    width: 263px;
+}
+
+.comentarios {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.bg-blue {
+    background-color: #00064E;
+}
+
+.bg-blue * {
+    color: white;
+}
+
+.float{
+    float: left;
+}
+
+@media (max-width: 576px) {
+    .carousel-item > img {
+        height: 300px;
+    }
+}
